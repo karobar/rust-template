@@ -20,7 +20,7 @@ rm -rf .git
 
 git init
 git add .
-git commit -a -m "Initial commit of electron-template ($version)"
+git commit -a -m "Initial commit of rust-template ($version)"
 
 # This should also generate the cargo-husky hooks
 cargo test
