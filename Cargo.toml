@@ -18,7 +18,13 @@ version = "0.1.0"
 authors = ["Travis P. <travis.pressler@scientiallc.com>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+# You can remove this if your application doesn't have a command-line interface
+clap = "3.0.0-beta.2"
+
+[dev-dependencies]
+# For code coverage
+grcov = "0.7.1"
 
 [dev-dependencies.cargo-husky]
 version = "1.5.0"
