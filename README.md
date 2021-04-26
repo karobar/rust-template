@@ -3,7 +3,7 @@ Clone and initialize this repo for creating a baseline Rust project.
 
 ## Initialize Template
 
-    prepare.sh && rm prepare.sh && git commit -a
+    ./prepare.sh && rm ./prepare.sh && git commit -a
 
 ## Run Application
 
