@@ -1,6 +1,10 @@
 # Rust Template
 Clone and initialize this repo for creating a baseline Rust project.
 
+## Components Used
+* Husky (for git hooks)
+* grcov (for code coverage)
+
 ## Initialize Template
 
     ./prepare.sh && rm ./prepare.sh && git commit -a
